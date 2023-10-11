@@ -1,0 +1,264 @@
+<!DOCTYPE html>
+<html>
+  <H1>Respiratory Assessment</H1>
+
+  <head>
+    <meta charset = "UTF-8">
+
+    <meta name = "viewport" content = "width=device-width, initial-scale = 1">
+
+    <title> Bodymap </title>
+
+    <!-- STYLE LINKS -->
+    
+    <link href = "https://fonts.googleapis.com/css2?family=Hind:wght@300;400;500;600;700&display=swap" rel = "stylesheet">
+    
+    
+    <link rel = "stylesheet" href = "style.css" type = "text/css">
+
+    <link rel = "stylesheet" href = "hotspot_pin.css" type = "text/css">
+
+    <link rel = "stylesheet" href = "hotspot_round.css" type = "text/css">
+
+  </head>
+
+  <body>
+
+    <main>
+      
+      <img src = "image/FemaleCharacter.jpeg" alt = "floorimage">
+      
+      <!-- **HOTSPOTS** -->
+
+
+      <!-- Hotspot 0 round one for all except nonverbal -->
+
+      <!--<button class = "hotspot_round" onclick = 'open_pop(), show_article01()'>
+        
+        <div class = "spot_round"> </div>
+      
+      </button>-->
+
+      
+      <!-- Hotspot 1 -->
+      
+      <button class = "hotspot_pin hot1_pin" onclick = 'open_pop(), show_article01()'>
+        
+        <div class = "spot_pin"> </div>
+      
+      </button>
+    
+
+      <!-- Hotspot 2-->
+
+      <button class = "hotspot_pin hot2_pin" onclick = 'open_pop(), show_article02()'> 
+        
+        <div class = "spot_pin"> </div>
+        
+      </button>
+
+
+      <!-- Hotspot 3-->
+
+      <button class = "hotspot_pin hot3_pin" onclick = 'open_pop(), show_article03() '> 
+        
+        <div class = "spot_pin"> </div>
+
+
+    </script>
+
+      </button>
+
+      
+      <!-- Hotspot 4-->
+      
+      <button class = "hotspot_pin hot4_pin" onclick = 'open_pop(), show_article04()'>
+            
+        <div class = "spot_pin"> </div>
+
+      </button>
+
+
+      <!-- Hotspot 5-->
+
+      <button class = "hotspot_pin hot5_pin" onclick = 'open_pop(), show_article05()'> 
+        
+        <div class = "spot_pin"> </div>
+
+      </button>
+      
+
+      <!-- Hotspot 6-->
+
+      <button class = "hotspot_pin hot6_pin" onclick = 'open_pop(), show_article06()'>  
+        
+        <div class = "spot_pin"> </div>
+            
+      </button>
+
+      <!-- Hotspot 7-->
+
+      <button class = "hotspot_round hotspot_round1" onclick = 'open_pop(), show_article07()'>  
+        
+        <div class = "spot_pin"> </div>
+            
+      </button>
+
+      <!-- Hotspot 8-->
+
+      <button class = "hotspot_round hotspot_round2" onclick = 'open_pop(), show_article08()'>  
+        
+        <div class = "spot_pin"> </div>
+            
+      </button>
+
+
+      
+      <!--***POP UP***-->
+      
+      
+      <div id = "popup_display" class = "popup_block" >
+            
+      <div class = "popup_content">
+
+        <button id = "closeup_btn" onclick = 'close_pop()'> Close</button>
+
+        <section>
+
+            <article>
+              <h3>Head and Neck</h3>
+
+              <iframe width="560" height="315" src="https://www.youtube.com/embed/gRWSyqatWQQ?si=C11O5tNMfQ1qhTxO&amp;start=120&end=156" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+              
+              
+              <iframe width="560" height="315" src="https://www.youtube.com/embed/gRWSyqatWQQ?si=C11O5tNMfQ1qhTxO&amp;start=332&end=363" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+              
+              <br>
+
+              <h2 id = "hd_01"></h2> 
+        
+              <p id = "txt_01" class = "text"></p>
+            
+            </article>
+        
+        
+            <article>
+
+              <h3>Anterior Chest</h3>
+              
+              <iframe width="560" height="315" src="https://www.youtube.com/embed/gRWSyqatWQQ?si=C11O5tNMfQ1qhTxO&amp;start=157&end=331" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+              
+              <br>
+              <h2 id="hd_02"></h2> 
+        
+              <p id="txt_02" class = "text"></p>
+            
+            </article>
+        
+        
+            <article>
+
+              <h3>Heart</h3>
+              
+              <iframe width="560" height="315" src="https://www.youtube.com/embed/gRWSyqatWQQ?si=C11O5tNMfQ1qhTxO&amp;start=110&end=120" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+              
+              <br>
+              
+              <h2 id="hd_03"></h2> 
+        
+              <p id="txt_03" class = "text"></p>
+            
+            </article>
+        
+        
+            <article>
+
+              <h3>Hands</h3>
+
+              <iframe width="560" height="315" src="https://www.youtube.com/embed/gRWSyqatWQQ?si=C11O5tNMfQ1qhTxO&amp;start=50&end=109" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+              
+              <br>
+              
+              <h2 id = "hd_04"></h2> 
+        
+              <p id = "txt_04" class = "text"></p>
+            
+            </article>
+        
+        
+            <article>
+
+              <h3>Anterior Chest</h3>
+
+              <iframe width="560" height="315" src="https://www.youtube.com/embed/gRWSyqatWQQ?si=C11O5tNMfQ1qhTxO&amp;start=364&end=483" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+              
+              <br>
+              
+              <h2 id = "hd_05"></h2> 
+        
+              <p id = "txt_05" class = "text"></p>
+            
+            </article>
+
+
+            <article>
+
+              <h3>Lower Back</h3>
+
+              <iframe width="560" height="315" src="https://www.youtube.com/embed/gRWSyqatWQQ?si=C11O5tNMfQ1qhTxO&amp;start=484&end=518" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+              
+              <br>
+              
+              <h2 id = "hd_06"></h2> 
+        
+              <p id = "txt_06" class = "text"></p>
+            
+              </article>
+            
+            <article>
+
+              <h3>Introduction</h3>
+  
+              <iframe width="560" height="315" src="https://www.youtube.com/embed/gRWSyqatWQQ?si=C11O5tNMfQ1qhTxO&amp;start=0&end=49" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+                
+              <br>
+                
+              <h2 id = "hd_07"></h2> 
+          
+              <p id = "txt_07" class = "text"></p>
+              
+            </article>
+
+            <article>
+
+              <h3>Summary</h3>
+  
+              <iframe width="560" height="315" src="https://www.youtube.com/embed/gRWSyqatWQQ?si=C11O5tNMfQ1qhTxO&amp;start=519&end=558" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+                
+              <br>
+                
+              <h2 id = "hd_08"></h2> 
+          
+              <p id = "txt_08" class = "text"></p>
+              
+            </article>
+
+              
+
+          </section>
+        
+        </div>
+      
+      </div>
+
+    </main>
+
+    </script>
+
+    <script src = "scripts/bodymap.js" type = "text/javascript"></script>
+
+    <script src = "scripts/script_popup.js" type = "text/javascript"></script>
+
+  </body>
+
+</html>
